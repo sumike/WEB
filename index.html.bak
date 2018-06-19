@@ -1,0 +1,162 @@
+<!--A Design by W3layouts
+Author: W3layout
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Security-Policy" content="block-all-mixed-content">
+<meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″/>
+<title>北京粟米壳信息技术有限公司</title>
+<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="./js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="./css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</head>
+<script>
+   /*---------返回顶部----------*/
+   $(function() {
+	    $(".btn_top").hide();
+		$(".btn_top").live("click",function(){
+			$('html, body').animate({scrollTop: 0},300);return false;
+		})
+		$(window).bind('scroll resize',function(){
+			if($(window).scrollTop()<=300){
+				$(".btn_top").hide();
+			}else{
+				$(".btn_top").show();
+			}
+		})
+   })
+	
+   /*---------返回顶部 end----------*/
+</script>
+<body>
+	<!--- Header Starts Here --->
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img src="./images/logo.png" alt=""/></a>
+			</div>
+			<div class="navigation">
+				<span class="menu"><img src="./images/nav.png" alt="" /></span>
+				<ul class="nav">
+					<li><a href="index.html">首页</a></li> <lable>|</lable>
+					<li><a href="about.html">核心团队</a></li> <lable>|</lable>
+					<li><a href="portfolio.html">经典案例</a></li> <lable>|</lable>
+					<li><a href="clients.html">合作伙伴</a></li> <lable>|</lable>
+					<li><a href="contact.html">联系我们</a></li>
+				</ul>
+			</div>
+			<script>
+					$( "span.menu" ).click(function() {
+					  $( ".navigation ul.nav" ).slideToggle( "slow", function() {
+					    // Animation complete.
+					  });
+					});
+				</script>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--- Header Ends Her -->
+	<!-- Banner Starts Here --->
+	<div class="banner">
+		<div class="container">
+			<div class="banner-top">
+			<h1>Our Team</h1>
+			<p>为 您 提 供 细 致 周 到 的 互 联 网 服 务</p>
+			<a href="404.html">详情点击</a>
+			</div>
+		</div>
+	</div>
+	<!-- Banner Ends Here --->
+	<!-- Content starts Here --->
+	<div class="content">
+		<div class="container">
+			<div class="row content-row">
+				<div class="col-md-4 content-row-column">
+					<i class="icon1"></i>
+					<h3>网页设计</h3>
+					<p>专 业 的 项 目 设 计 团 队 为 您 提 供 1-1 衔 接 开 发 ( 高效 精准 )</p>
+				</div>
+				<div class="col-md-4 content-row-column">
+					<i class="icon2"></i>
+					<h3>微信开发</h3>
+					<p>一 站 式 服 务 模 式 从 设 计 到 运 营 全 程 为 您 护 航 </p>
+				</div>
+				<div class="col-md-4 content-row-column">
+					<i class="icon3"></i>
+					<h3>二期维护</h3>
+					<p>提 供 原 有 开 发 环 境 的 基 础 上 二 次 进 行 开 发 维 护 </p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<span class="line"></span><a href="#" class="line-anchor">C E O 寄 语</a><span class="line"></span>
+				<div class="clearfix"></div>
+			<div class="content-middle">
+				<div class="row content-middle-row">
+					<div class="col-md-3 middle-row-column">
+						<img class="icon4" src="./images/client1.jpg" alt="" />
+					</div>
+					<div class="col-md-9 middle-row-column-right">
+						<i class="icon5"></i>
+						<p>优 秀 的 服 务 团 队 是 企 业 发 展 的 基 石 我 们 会 再 接 再 砺 提 供 更 优 质 的 服 务 !</p>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+			<span class="line"></span><a href="#" class="line-anchor">联 系 方 式</a><span class="line"></span>
+				<div class="clearfix"></div>
+				<div class="content-bottom">
+					<div class="row content-bottom-row">
+						<div class="col-md-4 bottom-row-column">
+							<span class="loc"></span><p class="ph">18518485133</p>
+							<div class="clearfix"></div>
+							<a href="mailto:lithunder@163.com">lithunder@163.com</a>
+						</div>
+						<div class="col-md-3 bottom-row-column">
+							<span class="ad"></span><p class="ad">北京市海淀区软件园二期20号楼</p>
+							<div class="clearfix"></div>
+						</div>
+						<div class="col-md-5 bottom-row-column">
+							<iframe src="bdMap.html" frameborder="0" style="border:0"></iframe> 
+							
+
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				
+		</div>
+	</div>
+	<!-- Content starts Here --->
+	<div class="footer">
+		<div class="container">
+			<ul class="social">
+				<li><i class="fa"></i></li>
+				<li><i class="tw"></i></li>
+				<li><i class="pin"></i></li>
+				<li><i class="in"></i></li>
+			</ul>
+			<p class="copyright">Copyright 2016 版权所有：粟米壳　|   <a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备05036345号 京公网安备11010602015678号</p>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+
+<!--qq聊天代码部分begin-->
+<div class="izl-rmenu">
+    <a class="consult" target="_blank"><div class="phone" style="display:none;">18518485133</div></a>    
+    <a class="cart"><div class="pic"></div></a>   
+    <a href="javascript:void(0)" class="btn_top" style="display: block;"></a>
+</div>
+<a target="_blank"  href="http://wpa.qq.com/msgrd?v=3&uin=578312000&site=qq&menu=yes" id="udesk-feedback-tab" class="udesk-feedback-tab-left" style="display: block; background-color: black;"></a>
+<!--qq聊天代码部分end-->
+</body>
+</html>

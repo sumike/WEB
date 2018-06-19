@@ -1,0 +1,125 @@
+<!--A Design by SUMIKE
+Author: Bob.Li
+Author URL: https://sumike.com.cn
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>北京粟米壳信息技术有限公司</title>
+<link href="./css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="./js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="./css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+</head>
+<script>
+   /*---------返回顶部----------*/
+   $(function() {
+	    $(".btn_top").hide();
+		$(".btn_top").live("click",function(){
+			$('html, body').animate({scrollTop: 0},300);return false;
+		})
+		$(window).bind('scroll resize',function(){
+			if($(window).scrollTop()<=300){
+				$(".btn_top").hide();
+			}else{
+				$(".btn_top").show();
+			}
+		})
+   })
+	
+   /*---------返回顶部 end----------*/
+</script>
+
+<body>
+	<!--- Header Starts Here --->
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img src="./images/logo.png" alt=""/></a>
+			</div>
+			<div class="navigation">
+				<span class="menu"><img src="./images/nav.png" alt="" /></span>
+				<ul class="nav">
+					<li><a href="index.html">首页</a></li> <lable>|</lable>
+					<li><a href="about.html">核心团队</a></li> <lable>|</lable>
+					<li><a href="portfolio.html">经典案例</a></li> <lable>|</lable>
+					<li><a href="clients.html">客户寄语</a></li> <lable>|</lable>
+					<li><a href="contact.html">联系我们</a></li>
+				</ul>
+			</div>
+			<script>
+					$( "span.menu" ).click(function() {
+					  $( ".navigation ul.nav" ).slideToggle( "slow", function() {
+					    // Animation complete.
+					  });
+					});
+				</script>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	<!--- Header Ends Her -->
+	<!--- Contact Starts Here ---->
+	<div class="contact">
+		<div class="container">
+			<div class="contact-top">
+				<span class="line"></span><a href="#" class="line-anchor">联 系 我 们</a><span class="line"></span>
+				<div class="clearfix"></div>
+				<div class="row contact-form">
+				<div class="col-md-8">
+					<h3 class="contact-head">填 写 信 息</h3>
+					<div class="contact-text">
+						<input type="text" value="姓名：" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'First Name';}"/>
+						<!--<input type="text" value="名：" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Second Name';}"/>-->
+						<input type="text" value="联系电话：" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Id';}"/>
+					</div>
+					<div class="contact-textarea">
+						<textarea value="请 输 入 . . . . . :" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">请 输 入 . . . . . </textarea>
+					</div>
+					<div class="contact-but">
+						<input type="submit" />
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="address">
+							<h3 class="contact-head">地 址</h3>
+							<p>北 京 市 海 淀 区 软 件 园 20 号 楼</p>
+							<p>详 情 请 致 电</p>
+							<a href="mailto:lithunder@163.com">lithunder@163.com</a>
+							<p>18518485133</p>
+							<p></p>
+						</div>
+				</div>
+				<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--- Contact Ends Here ---->
+	<div class="footer">
+		<div class="container">
+			<ul class="social">
+				<li><i class="fa"></i></li>
+				<li><i class="tw"></i></li>
+				<li><i class="pin"></i></li>
+				<li><i class="in"></i></li>
+			</ul>
+			<p class="copyright">Copyright 2016 版权所有：粟米壳  |  <a href="http://www.miibeian.gov.cn/" target="_blank">京ICP备05036345号 京公网安备11010602015678号</p>
+			<div class="clearfix"></div>
+		</div>
+	</div>
+
+<!--qq聊天代码部分begin-->
+<div class="izl-rmenu">
+    <a class="consult" target="_blank"><div class="phone" style="display:none;">18518485133</div></a>    
+    <a class="cart"><div class="pic"></div></a>   
+    <a href="javascript:void(0)" class="btn_top" style="display: block;"></a>
+</div>
+<a target="_blank"  href="http://wpa.qq.com/msgrd?v=3&uin=123456&site=qq&menu=yes" id="udesk-feedback-tab" class="udesk-feedback-tab-left" style="display: block; background-color: black;"></a>
+<!--qq聊天代码部分end-->
+</body>
+</html>
